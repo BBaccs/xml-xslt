@@ -1,0 +1,156 @@
+<LeadDetails>
+  <LeadTransactionInformation>
+    <StoreName>SparkLMS</StoreName>
+    <MerchandiseName>Product_Acquire</MerchandiseName>
+    <CampaignName>AcquireInterActive</CampaignName>
+    <UserName>AQInterAct</UserName>
+    <Password>A2Q0In18</Password>
+    <LeadDate>8/22/2018</LeadDate>
+    <SubAffiliateId></SubAffiliateId>
+    <ProductType></ProductType>
+  </LeadTransactionInformation>
+   <CustomerDeviceDetail>
+    <IPAddress>::1</IPAddress>
+    <BrowserName>Chrome</BrowserName>
+    <BrowserVersion>68.0</BrowserVersion>
+    <DevicePlatform>DeskTop[or]LapTop</DevicePlatform>
+    <OperatingSystem>WinNT</OperatingSystem>
+    <OSVersion>6.2.9200.0</OSVersion>
+    <TimeZone>+05:30</TimeZone>
+    <BatteryLevel />
+    <Brand />
+    <Carrier />
+    <DeviceCountry>India</DeviceCountry>
+    <DeviceID />
+    <DeviceLanguage />
+    <DeviceManufacturer />
+    <DeviceModel />
+    <IsTablet>0</IsTablet>
+    <DeviceUniqueID />
+    <AcceptLanguage>en-US</AcceptLanguage>
+    <UserAgent>mozilla/5.0 (windows nt 6.2; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/68.0.3440.106 safari/537.36</UserAgent>
+  </CustomerDeviceDetail>
+   <LoanInformation>
+    <DateApplied>8/22/2018</DateApplied>
+    <LoanAmount>700.00</LoanAmount>
+    <RequestedEffectiveDate>8/22/2018</RequestedEffectiveDate>
+    <RequestedDueDate>09/11/2018</RequestedDueDate>
+    <IPAddress>::1</IPAddress>
+  </LoanInformation>
+   <CustomerInformation>
+    <PersonalInformation>
+      <FirstName>Tania</FirstName>
+      <LastName>Sherjin</LastName>
+      <Suffix />
+      <Address>citi</Address>
+      <City>East Chicago</City>
+      <State>IN</State>
+      <Zip>46312</Zip>
+      <Zip4 />
+      <HomeStatus>1</HomeStatus>
+      <PrimaryPhone />
+      <HomePhone>1478523690</HomePhone>
+      <MobilePhone>1478523690</MobilePhone>
+      <SSN>123456754</SSN>
+      <Fax />
+      <Email>tani@gmail.com</Email>
+      <DateOfBirth>01/30/1975</DateOfBirth>
+      <Is18YearsOld />
+      <IsBankrupted />
+      <DrivingLicenseState>AK</DrivingLicenseState>
+      <DrivingLicenseNumber>LX565657</DrivingLicenseNumber>
+      <YearsAtCurrentAddress>3</YearsAtCurrentAddress>
+      <MonthsAtCurrentAddress>4</MonthsAtCurrentAddress>
+      <IsMilitary />
+      <IsClaimedMilitary>0</IsClaimedMilitary>
+      <IsEmailVerified>N</IsEmailVerified>
+      <PreferredLanguage>EN</PreferredLanguage>
+    </PersonalInformation>
+    <EmployerInformation>
+      <IncomeType>P</IncomeType>
+      <EmployerName>CitiGroup</EmployerName>
+      <Address>#6 North Lane 9th cross street</Address>
+      <City>Rogerson</City>
+      <State>ID</State>
+      <Zip>83302</Zip>
+      <Zip4 />
+      <Phone>2131342354</Phone>
+      <PhoneExtn>3565464565</PhoneExtn>
+      <Fax />
+      <PointOfContact>Benita</PointOfContact>
+      <BenefitStartdate>01/30/2017</BenefitStartdate>
+      <BenefitEnddate />
+      <JobTitle>Engg</JobTitle>
+      <JobType>F</JobType>
+      <AverageSalary>400.00</AverageSalary>
+      <PayRollType>D</PayRollType>
+      <Periodicity>B</Periodicity>
+      <PayGarnishment />
+      <Frequency>B</Frequency>
+      <LastPayDate>07/31/2018</LastPayDate>
+      <NextPayDate>8/28/2018</NextPayDate>
+      <SecondPayDate>9/11/2018</SecondPayDate>
+      <SemiMonthlyPayDay01 />
+      <SemiMonthlyPayDay02 />
+      <PayWeek1 />
+      <PayWeek2 />
+      <IsAfterHoliday />
+      <AfterWhichDay />
+      <IsPrimary>P</IsPrimary>
+    </EmployerInformation>
+    <BankInformation>
+      <BankName>GEORGIA BANK TRUST CO AUGUSTA</BankName>
+      <ABANumber>053274168</ABANumber>
+      <AccountNumber>144445</AccountNumber>
+      <AccountType>C</AccountType>
+      <Address />
+      <City />
+      <State />
+      <ZipCode />
+      <BankPhone />
+      <AccountOpenDate />
+    </BankInformation>
+     <References>
+       <Reference>
+        <FirstName>Sherlin</FirstName>
+        <LastName>Joshua</LastName>
+        <Relation>AUNT</Relation>
+        <MobilePhone>1478523690</MobilePhone>
+        <HomePhone>4578787687</HomePhone>
+        <Address />
+        <City />
+        <State>--Select--</State>
+        <zip />
+        <Email>sherlin@gmail.com</Email>
+        <IsPrimary>P</IsPrimary>
+      </Reference>
+       <Reference>
+        <FirstName>Livana</FirstName>
+        <LastName>Daniel</LastName>
+        <Relation>COUSIN</Relation>
+        <MobilePhone>2423534645</MobilePhone>
+        <HomePhone>3453453453</HomePhone>
+        <Address>#8 george lane</Address>
+        <City>Arlington</City>
+        <State>GA</State>
+        <zip>31713</zip>
+        <Email>livana@gmail.com</Email>
+        <IsPrimary />
+      </Reference>
+    </References>
+    <AutoTitle>
+      <VehicleModel />
+      <VehicleMake />
+      <VehicleYear />
+      <VehicleNumber />
+      <VehicleOwnerName />
+      <VIN />
+      <ChassisNumber />
+      <InsuranceNumber />
+      <isVehiclePaidoff>N</isVehiclePaidoff>
+      <Mileage />
+      <AmountOwed>0.00</AmountOwed>
+      <DrivingLicenseExpiryDate />
+    </AutoTitle>
+  </CustomerInformation>
+</LeadDetails>
