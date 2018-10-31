@@ -35,7 +35,7 @@
         <LoanAmount><xsl:value-of select="data/application/loan_amount_desired" /></LoanAmount>
         <RequestedEffectiveDate><xsl:value-of select="data/constant/requested_effective_date" /></RequestedEffectiveDate>
         <RequestedDueDate><xsl:value-of select="data/constant/requested_due_date" /></RequestedDueDate>
-        <!-- IPAaddress shows up twice, remove one? -->
+        <!-- IPAaddress shows up twice, remove one? Response - leave for now-->
         <IPAddress><xsl:value-of select="data/application/client_ip_address" /></IPAddress>
     </LoanInformation>
     <CustomerInformation>
@@ -83,7 +83,7 @@
         </PersonalInformation>
         <EmployerInformation>
             <IncomeType>
-            <!-- How do we know potential values of income_type can be equal to, other than the current value in the source document? employment vs job. -->
+            <!-- How do we know potential values of income_type can be equal to, other than the current value in the source document? employment vs job. Response: for now ask Ryan C -->
              <xsl:choose>
                     <xsl:when test="data/application/income_type = 'EMPLOYMENT'">P</xsl:when>
                     <xsl:when test="data/application/income_type = 'BENEFITS'">S</xsl:when>
@@ -97,14 +97,19 @@
             <Zip><xsl:value-of select="data/application/employer_zip" /></Zip>
             <Phone><xsl:value-of select="data/constant/employer_phone" /></Phone>
             <PhoneExtn><xsl:value-of select="data/application/ext_work" /></PhoneExtn>
-            <!-- <Phone></Phone> brick and mortar path?
+            <!-- <Phone></Phone> brick and mortar path? Response: we don't really do brick and mortar anymore
             <Fax />  brick and mortar? -->
             <PointOfContact><xsl:value-of select="data/constant/point_of_contact" /></PointOfContact>
             <JobTitle><xsl:value-of select="data/constant/job_title" /></JobTitle>
             <JobType><xsl:value-of select="data/constant/job_type" /></JobType>
             <AverageSalary><xsl:value-of select="data/application/income_monthly_net * 12" /></AverageSalary>
             <!--this normally would be a choose statement given that they require specific values, however we don't have this node, so is making a value-of constant correct?-->
-            <PayRollType><xsl:when test="data/constant/payroll_type"></xsl:when></PayRollType>
+            <PayRollType> 
+                <xsl:choose>
+                    <xsl:when test="data/application/income_frequency = 'TRUE'">D</xsl:when>
+                    <xsl:otherwise>P</xsl:otherwise>
+                </xsl:choose>
+            </PayRollType>
             <!-- Periodicity and Frequency are the same and both required, so I duplicated it. Is this okay? -->
             <Periodicity>
                 <xsl:choose>
